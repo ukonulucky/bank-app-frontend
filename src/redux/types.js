@@ -1,0 +1,5 @@
+export const REGISTERUSER = "REGISTERUSER"
+export const LOGINUSER = "LOGINUSER"
+export const WIDTHREW = "WITHDRAW"
+export const DEPOSIT = "DEPOSIT"
+export const HISTORY = "HISTORY"

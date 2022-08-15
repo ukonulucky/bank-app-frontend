@@ -1,0 +1,139 @@
+.register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.register .register__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 20px;
+  border: 5px solid grey;
+  padding: 20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+@media (min-width: 481px) and (max-width: 860px) {
+  .register .register__container {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .register .register__container {
+    width: 85vw;
+  }
+}
+
+.register h1 {
+  margin-bottom: 1rem;
+  color: #eab225;
+}
+
+.register form > .list > span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .register form > .list > span {
+    font-size: 1rem;
+  }
+}
+
+.register form input {
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid grey;
+  outline: none;
+}
+
+.register form .login__register {
+  background: #eab225;
+  color: white;
+  margin-top: 15px;
+  border: 1px solid;
+  color: #111;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-color: #a88734 #9c7e31 #846a29;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.register p {
+  margin-top: 15px;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.register .login__register {
+  margin-top: 15px;
+  border: 1px solid darkgray;
+  color: #111;
+  margin: 0 auto;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 12px;
+          column-gap: 12px;
+  margin-bottom: 10px;
+}
+
+.list input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
+  width: 98%;
+}
+/*# sourceMappingURL=Register.css.map */

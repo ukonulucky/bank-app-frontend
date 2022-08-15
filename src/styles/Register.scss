@@ -1,0 +1,99 @@
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .register__container{
+       display: flex;
+       flex-direction: column;
+       border-radius: 20px;
+       border: 5px solid grey;
+       padding: 20px;
+       width: max-content;
+       
+       @media (min-width:481px) and (max-width:860px){
+        width: 70vw;
+       }
+       @media screen and (max-width:480px){
+        width: 85vw;
+       }
+     
+    }
+    h1{
+     margin-bottom: 1rem;
+     color:  #eab225;
+    }
+    form  > .list  > span{
+     font-size: 1.2rem;
+     font-weight:bold;
+     @media screen and (max-width:480px){
+        font-size: 1rem;
+       }
+    
+    }
+    form{
+     input{
+         height:40px;
+         padding: 5px;
+         border-radius:10px;
+         border: 3px solid grey;
+         outline: none;
+        
+     }
+     .login__register{
+         background:  #eab225;
+         color: white;
+         margin-top: 15px;
+         border: 1px solid;
+         color: #111;
+         margin: 0 auto;
+         padding: 10px 20px;
+         border-color: #a88734 #9c7e31 #846a29;
+         text-transform: capitalize;
+         cursor: pointer;
+         display: flex;
+         width: 100%;
+         align-items: center;
+         justify-content: center;
+         text-transform: capitalize;
+         font-size: 1rem;
+ 
+     }
+    }
+    p{
+     margin-top: 15px;
+     font-size: 12px;
+   text-transform: capitalize;
+    }
+ 
+    .login__register{
+     margin-top: 15px;
+     border: 1px solid darkgray;
+     color: #111;
+     margin: 0 auto;
+     padding: 10px 20px;
+     text-transform: capitalize;
+     cursor: pointer;
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     margin-top: 10px;
+     text-transform: capitalize;
+     font-size: 1rem;
+ }
+ 
+ }
+ .list{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 10px;
+
+    input{
+        flex: 1;
+        height: 100%;
+        width: 98%;
+     
+    }
+ }
