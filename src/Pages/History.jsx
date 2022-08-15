@@ -8,7 +8,7 @@ function History() {
     const [deposites, setDeposites] = useState([])
     const [depositeArray, setDepositeArray] = useState([])
     const [transferArray, setTransferArray] = useState([])
-    const user = useEffect(state => state?.user)
+    const user = useSelector(state => state?.user)
   
    
     const generateTransfers = () => {
